@@ -1,13 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="ar">
 <head>
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="1.png">
-    <title>Elhadede</title>
+  <meta name="title" content="elhadede">
+  <meta name="description" content="كل ما هو جديد في عالم الالعاب و التقنية">
+  <meta name="keywords" content="الحديدي,تقنية,العاب,حصري,جديد,محتوى">
+  <meta name="robots" content="index, follow">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="language" content="Arabic">
+  <meta name="revisit-after" content="1 days">
+  <meta name="author" content="الحديدي">  
+  <!-- seo -->
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="1.png">
+  <title>الحديدي</title>
 </head>
 <body>
 <main>
-  <nav>
+  <button id="darkmode"><img src="bulb.svg"></button>
+  <button id="up"><a href="#0"><img src="up.svg"></a></button>  
+  <nav id="0">
     <a href="#1">حساباتنا</a>
     <a href="#2">تواصل معنا</a>
   </nav>
@@ -18,7 +29,7 @@
       جميع حساباتنا متخصصة في نقل كل ما هو جديد في عالم الالعاب و التقنية
     </p>
   </div>
-  <div class="block">
+  <div id="1" class="block">
     <h2>حساباتنا الرسمية</h2>
       <a href="https://www.youtube.com/channel/UCcbpG0d5v_X9LEOi6OFuNVw" target="_blank" rel="noopener noreferrer">
         <img src="youtube.svg" alt="youtube" class="img2">
@@ -33,7 +44,7 @@
         <p>المدونة</p>
       </a>
   </div>
-  <div class="block">
+  <footer id="2" class="block">
     <h2>تواصل معنا</h2>
     <form action="send.js" dir="rtl" method="post">
       <textarea name="message" placeholder="😊 اكتب رسالتك">
@@ -41,7 +52,7 @@
       </textarea>
       <button type="submit">ارسل</button>  
     </form>
-  </div>
+  </footer>
 </main>
 </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

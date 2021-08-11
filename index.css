@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@800&display=swap');
 *{
     font-family: 'Almarai', sans-serif;
-    font-size: 2.5vmin;
-    width: auto;
-    --space: 2.5vmin;
-    --color1:#3E2C41;
+    font-size: 3vmin;
+    scroll-behavior: smooth;
+    --space: 5vmin;
+    --color1:white;
     --color2:#5C527F;
     --color3:#6E85B2;
+    --speed: 0.5s;
 }
 body{
     text-align: center;
     align-content: center;
     background-color: var(--color1);
+    transition: var(--speed);
 }
 h1 {
     font-size: 5.9vw;
@@ -29,11 +31,16 @@ nav *{
     margin: 10%;
 }
 a{
+    width: auto;
     text-decoration: none;
     color:black;
     text-underline-offset: 3px;
     text-decoration: underline 3px var(--color3);
-    transition: 0.5s;
+    transition: var(--speed);
+}
+img{
+    width: 100%;
+    height: auto;
 }
 a:hover{
     color: var(--color3);
@@ -41,16 +48,17 @@ a:hover{
 button{
     display: block;
     margin: 0 auto;
-    padding: 10px;
+    padding: 3vmin;
     background-color: var(--color3);
     border: none;
     cursor: pointer;
-    transition: 0.5s;
+    transition: var(--speed);
 }
 button:hover{
     background-color: var(--color1);
 }
 .block{
+    box-shadow: black 0px 7px 29px 0px;
     padding-top: var(--space);
     padding-bottom: var(--space);
     margin-top: var(--space);
@@ -68,4 +76,20 @@ button:hover{
     width: 5vmin;
     height: auto;
     margin: 0 auto;
+}
+#darkmode{
+    position: fixed;
+    top:0;
+    left:0;
+    margin: 3vmin;
+    border-radius: 50%;
+}
+#up{
+    opacity: 0;
+    position: fixed;
+    bottom:0;
+    right:0;
+    margin: 3vmin;
+    border-radius: 50%;
+    transition: var(--speed);
 }
