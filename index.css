@@ -1,8 +1,6 @@
-@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@800&display=swap');
 *{
-    margin: 0;
-    padding: 0;
-    font-family: 'Droid Arabic Kufi', serif;
+    font-family: 'Almarai', sans-serif;
     font-size: 2.5vmin;
     width: auto;
     --space: 2.5vmin;
@@ -12,29 +10,8 @@
 }
 body{
     text-align: center;
+    align-content: center;
     background-color: var(--color1);
-}
-nav li{
-    display: inline-block;
-    margin: 10px;
-    padding: 10px;
-    background-color: var(--color2);
-    border-radius: 25%;
-}
-.block{
-    margin-top: var(--space);
-    margin-bottom: var(--space);
-    width: 100%;
-    background-color: var(--color2);
-}
-.block .img1{
-    margin: 10px;
-    width: 25%;
-    border-radius: 50%;
-}
-.block .img2{
-    width: 5vmin;
-    height: auto;
 }
 h1 {
     font-size: 5.9vw;
@@ -42,21 +19,24 @@ h1 {
 h2 {
     font-size: 4.5vh;
 }
+textarea{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    resize: none;
+}
+nav *{
+    margin: 10%;
+}
 a{
     text-decoration: none;
     color:black;
     text-underline-offset: 3px;
-    text-decoration: underline 3px var(--color1);
+    text-decoration: underline 3px var(--color3);
     transition: 0.5s;
 }
 a:hover{
     color: var(--color3);
-}
-textarea{
-    display: block;
-    margin: 0 auto;
-    width: 25%;
-    resize: none;
 }
 button{
     display: block;
@@ -69,4 +49,23 @@ button{
 }
 button:hover{
     background-color: var(--color1);
+}
+.block{
+    padding-top: var(--space);
+    padding-bottom: var(--space);
+    margin-top: var(--space);
+    margin-bottom: var(--space);
+    width: 100%;
+    background-color: var(--color2);
+    height: auto;
+}
+.block .img1{
+    width: 25%;
+    border-radius: 50%;
+}
+.block .img2{
+    display: block;
+    width: 5vmin;
+    height: auto;
+    margin: 0 auto;
 }
