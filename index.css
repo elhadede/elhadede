@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Droid Arabic Kufi', serif;
+    font-size: 2.5vmin;
+    width: auto;
+    --space: 2.5vmin;
+    --color1:#3E2C41;
+    --color2:#5C527F;
+    --color3:#6E85B2;
+}
+body{
+    text-align: center;
+    background-color: var(--color1);
+}
+nav li{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: var(--color2);
+    border-radius: 25%;
+}
+.block{
+    margin-top: var(--space);
+    margin-bottom: var(--space);
+    width: 100%;
+    background-color: var(--color2);
+}
+.block .img1{
+    margin: 10px;
+    width: 25%;
+    border-radius: 50%;
+}
+.block .img2{
+    width: 5vmin;
+    height: auto;
+}
+h1 {
+    font-size: 5.9vw;
+}
+h2 {
+    font-size: 4.5vh;
+}
+a{
+    text-decoration: none;
+    color:black;
+    text-underline-offset: 3px;
+    text-decoration: underline 3px var(--color1);
+    transition: 0.5s;
+}
+a:hover{
+    color: var(--color3);
+}
+textarea{
+    display: block;
+    margin: 0 auto;
+    width: 25%;
+    resize: none;
+}
+button{
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: var(--color3);
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: var(--color1);
+}
