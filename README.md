@@ -14,3 +14,4 @@ i love fishing<br>
 [Twitter](https://twitter.com/elhadede_)<br>
 [Stackoverflow](https://stackoverflow.com/users/16439020/elhadede)<br>
 [Itch](https://elhadede.itch.io/)<br>
+[LinkedIn](https://www.linkedin.com/in/john-hammond-95b295218/)<br>
