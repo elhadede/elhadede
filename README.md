@@ -12,3 +12,5 @@ i love fishing<br>
 [Reddit](https://www.reddit.com/r/elhadede)<br>
 [Discord](https://discord.com/invite/CTeA5ee6Pr)<br>
 [Twitter](https://twitter.com/elhadede_)<br>
+[Stackoverflow](https://stackoverflow.com/users/16439020/elhadede)<br>
+[Itch](https://elhadede.itch.io/)<br>
