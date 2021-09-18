@@ -1,0 +1,48 @@
+/*import nav.css*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Almarai', sans-serif;
+    font-size: 30px;
+    color:black;
+}
+body, html{
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+.posts{
+    display: grid;
+    margin: 30px;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.card{
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    align-items: center;
+    background-color: grey;
+    padding: 10px;
+    transition: 0.25s ease-in;
+}
+.card:hover{
+    background-color: lightgrey;
+    transform: scale(1.05);
+}
+.aspect-ratio-box {
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding-top: 56.25%;
+    position: relative;
+}
+.aspect-ratio-box img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}

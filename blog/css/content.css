@@ -1,0 +1,26 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: lightgrey;
+    border-radius: 50px 0px;
+    max-width: 900px;
+    sizing: border-box;
+    font-size: 0.8em;
+}
+.content img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.content a{
+    background-image: linear-gradient(0deg, #9049ee 0%, #382299  100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+}
+.content a:hover{
+    background-size: 100% 70%;
+}

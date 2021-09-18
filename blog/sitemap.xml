@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://elhadede.netlify.app/blog/tech/1dd017d2-128c-11ec-a668-70c94ea82ecf/</loc>
+    <lastmod>2021-09-08T07:52:51+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elhadede.netlify.app/blog/</loc>
+    <lastmod>2021-09-08T07:52:51+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://elhadede.netlify.app/blog/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://elhadede.netlify.app/blog/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://elhadede.netlify.app/blog/tech/</loc>
+    <lastmod>2021-09-08T07:52:51+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
